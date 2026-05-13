@@ -29,3 +29,33 @@ Java
 - ReviewerManager handles its own filtering internally
 - EvaluationManager owns the full evaluation chain
 - Reduced controller-initiated method calls by 71%
+## Running the system
+
+Both the `Original/src` and `Optimised/src` folders contain multiple 
+Java files. The system is compiled and run through the `Main` class.
+
+Navigate into either source folder first.
+
+Example:
+
+```bash
+cd Original/src
+```
+
+or
+
+```bash
+cd Optimised/src
+```
+
+Compile all Java files:
+
+```bash
+javac *.java
+```
+
+Run the system:
+
+```bash
+java Main
+```
